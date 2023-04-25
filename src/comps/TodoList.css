@@ -1,0 +1,43 @@
+.container{
+    background-color: antiquewhite;
+    height: 100vh;
+    padding:  0 150px;
+}
+
+.input_container{
+    /* background-color: aqua; */
+    width: 300px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_container > input{
+    width: 70%;
+    padding: 7px 20px;
+}
+
+.input_container > button{
+    padding: 8px;
+    background-color: rgb(222, 169, 105);
+}
+
+.list-group{
+    list-style: none; 
+}
+
+.list-group-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    background-color: rgb(132, 137, 135);
+    padding: 10px;
+    margin-left: -40px;
+}
+
+.list-group-item > button{
+    border: 1px solid black;
+    color: black;
+    background-color: rgb(246, 130, 130);
+}
