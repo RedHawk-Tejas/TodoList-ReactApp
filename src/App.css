@@ -1,6 +1,8 @@
-.app{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
+.App {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+
+  /* margin-top: 50px; */
+
 }

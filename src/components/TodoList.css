@@ -1,0 +1,43 @@
+.container{
+    background-color: antiquewhite;
+    height: 99vh;
+    padding: 0px 150px;
+}
+
+.container > h1{
+    margin-top: 50px;
+}
+
+.input_container{
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+}
+
+.input_container > input{
+    padding: 7px 12px;
+}
+
+.input_container > button{
+    padding: 7px 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul > li{
+    margin-bottom: 7px;
+    margin-left: -36px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    background-color: #bdb9b9;
+    padding: 10px 8px;
+}
+
+ul > li > button{
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+}
